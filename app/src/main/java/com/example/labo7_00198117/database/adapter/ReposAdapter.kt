@@ -19,6 +19,7 @@ class ReposAdapter(var repos: List<GithubRepo>) : RecyclerView.Adapter<ReposAdap
     override fun getItemCount(): Int {
         return repos.size
 
+
     }
     fun updateList(newRepos: List<GithubRepo>){
         this.repos  = newRepos
